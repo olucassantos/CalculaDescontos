@@ -14,10 +14,10 @@ namespace CalculaDescontos
 
             Console.WriteLine("Bem vindo ao DescontosApp");
 
-            // Console.WriteLine("Por favor, digite a senha:");
-            //string senha = Console.ReadLine();
+            Console.WriteLine("Por favor, digite a senha:");
+            string senha = Console.ReadLine();
 
-            if ("senha" != SENHA_PADRAO)
+            if (senha != SENHA_PADRAO)
             {
                 Console.WriteLine("A senha está incorreta!");
                 Console.WriteLine("Um bjo.");
